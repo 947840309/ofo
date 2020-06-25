@@ -1,0 +1,15 @@
+<!--pages/time/index.wxml-->
+
+<view class="wrapper">
+	<view class="title">
+		<text>当前单车编号：{{number}}</text>
+	</view>
+	<view class="time">
+		<text class="time-title">{{state}}</text>
+		<text class="times">{{hour}}:{{minute}}:{{second}}</text>
+	</view>
+	<view class="button">
+		<button class="stop" type="warn" bindtap="stop" disabled="{{disabled}}">结束骑行</button>
+		<button class="go-back" type="primary" bindtap="goBack">回到地图</button>
+	</view>
+</view>

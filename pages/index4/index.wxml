@@ -1,0 +1,14 @@
+<!--pages/index4/index.wxml-->
+<view class="wrapper">
+  <view class="user">
+    <block wx:if="{{src !== ''}}">
+      <image  src="{{src}}"></image>
+    </block>
+    <text class="name">{{name}}</text>
+  </view>
+  <block wx:if="{{src !== ''}}">
+   <view class="money" bindtap="money">我的钱包<text>></text></view>
+  </block>
+  <button type="{{color}}" open-type="getUserInfo" bindgetuserinfo="click">{{text}}</button>
+</view>
+

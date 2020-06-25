@@ -1,0 +1,8 @@
+<!--./pages/index/index.wxml-->
+<map longitude="{{longitude}}" latitude="{{latitude}}" id="myMap" show-location scale="16">
+	<cover-image catchtap="click" id="1" class="location" src="../../icon_x53mto72os/dingwei.png"></cover-image>
+	<cover-view catchtap="click" id="2" class="use">立即使用</cover-view>
+  <cover-image catchtap="click" id="3" class="fault" src="../../icon_x53mto72os/zhihuixiaofang-jingbaoguzhang.png"></cover-image>
+  <cover-image catchtap="click" id="4" class="user" src="../../icon_x53mto72os/yonghu.png"></cover-image>
+  <cover-image id="5" class="now" src="../../icon_x53mto72os/iconset0393.png"></cover-image>
+</map>

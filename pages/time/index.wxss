@@ -1,0 +1,33 @@
+/* pages/time/index.wxss */
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+view{
+  width: 100%;
+  text-align: center;
+}
+.title{
+  flex: 1;
+  padding: 50rpx 0;
+}
+.time{
+  flex: 6;
+  padding: 100rpx 0;
+}
+.times{
+  display: block;
+  margin-top: 60rpx;
+  font-size: 60px;
+}
+.button{
+  flex: 3;
+}
+button{
+  width: 90%;
+  margin: 30rpx auto;
+}

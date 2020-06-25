@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index0/index",
+    "pages/index1/index",
+    "pages/index2/index2",
+    "pages/time/index",
+    "pages/index3/index",
+    "pages/index4/index",
+    "pages/index6/index",
+    "pages/index5/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b9dd08",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ofo 共享单车"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "请允许应用获取您的地理位置" 
+    }
+  },
+  "sitemapLocation": "sitemap95.json"
+}
